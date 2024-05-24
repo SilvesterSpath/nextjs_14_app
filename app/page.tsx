@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 const HomePage = () => {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <div>HomePage</div>
+      <h1 className='text-3xl'>Welcome</h1>
+      <Link href='/properties'>Show Properties</Link>
     </main>
   );
 };
