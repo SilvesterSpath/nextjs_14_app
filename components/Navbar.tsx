@@ -10,7 +10,7 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [profileDropDownIsOpen, setProfileDropDownIsOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const pathName = usePathname();
 
