@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/properties/page.jsx",
-    ".next/types/app/properties/[id]/page.tsx"
+    ".next/types/app/properties/[id]/page.tsx",
+    "components/Navbar.tsx"
   ],
   "exclude": ["node_modules"]
 }
